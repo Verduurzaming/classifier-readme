@@ -46,6 +46,10 @@ Voorbeeld antwoord:
     "construction_year_min": 1920,
     "construction_year_max": 1975,
     "houseType_id": "VRIJ",
+    "yearly_gasconsumption": 2600,
+    "yearly_energy_requirement": 2700,
+    "created_at": "2022-11-23 16:32:13",
+    "last_updated": "0000-00-00 00:00:00",
     "measures": [
         {
             "class_id": "VRIJ-1920-1975",
@@ -54,7 +58,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "150.00",
             "reduction_percentage": "30.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "Gevelisolatie",
+            "unit": "m2",
+            "subsidy_per_unit": "38.00",
+            "subsidy_minimum_quantity": "10.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -63,7 +72,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "100.00",
             "reduction_percentage": "25.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "Dakisolatie",
+            "unit": "m2",
+            "subsidy_per_unit": "30.00",
+            "subsidy_minimum_quantity": "20.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -72,7 +86,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "50.00",
             "reduction_percentage": "15.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "Vloerisolatie",
+            "unit": "m2",
+            "subsidy_per_unit": "11.00",
+            "subsidy_minimum_quantity": "20.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -81,7 +100,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "140.00",
             "reduction_percentage": "15.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "HR++ glas plaatsen woonruimtes",
+            "unit": "m2",
+            "subsidy_per_unit": "53.00",
+            "subsidy_minimum_quantity": "8.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -90,7 +114,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "140.00",
             "reduction_percentage": "15.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "HR++ glas plaatsen woonruimtes",
+            "unit": "m2",
+            "subsidy_per_unit": "53.00",
+            "subsidy_minimum_quantity": "8.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -99,7 +128,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "620.00",
             "reduction_percentage": null,
             "annual_production": 3200,
-            "available": 1
+            "available": 1,
+            "name": "Zonnepanelen plaatsen ",
+            "unit": "panelen",
+            "subsidy_per_unit": "0.00",
+            "subsidy_minimum_quantity": "0.00",
+            "subsidy_taxfree": 1
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -108,7 +142,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "3000.00",
             "reduction_percentage": null,
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "Ventilatie aanpassen",
+            "unit": "systeem",
+            "subsidy_per_unit": "0.00",
+            "subsidy_minimum_quantity": "0.00",
+            "subsidy_taxfree": 0
         },
         {
             "class_id": "VRIJ-1920-1975",
@@ -117,7 +156,12 @@ Voorbeeld antwoord:
             "investment_per_unit": "10000.00",
             "reduction_percentage": "25.00",
             "annual_production": null,
-            "available": 1
+            "available": 1,
+            "name": "Warmtepomp plaatsen",
+            "unit": "stuk",
+            "subsidy_per_unit": "1950.00",
+            "subsidy_minimum_quantity": "0.00",
+            "subsidy_taxfree": 0
         }
     ]
 }
