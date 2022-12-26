@@ -57,6 +57,14 @@ Vervolgens zal de route een record aanmaken in de database en krijg je een respo
 }
 ```
 
+## Direct naar checkvragen voor specifieke maatregel
+
+Je kunt de gebruiker direct naar de vragen voor een specifieke maatregel laten navigeren door de `check_interest` parameter toe te voegen aan de URL, met als waarde de naam van de maatregel. Bijvoorbeeld, om direct naar de vragen voor dak te gaan gebruik je:
+
+```
+https://quickcheck.bureauverduurzamen.nl/sess-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx?check_interest=Roof
+```
+
 ## JSON velden
 
 > Tip: PascalCase = veld, camelCase = sectie
