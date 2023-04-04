@@ -167,6 +167,22 @@ Voorbeeld antwoord:
 }
 ```
 
+### Loose houseType
+
+Omdat niet alle systemen dezelfde API-namen gebruiken voor de woningtypen (`VRIJ`, `HALFVRIJ`, `TUSSEN`, etc) is er naast het strikte veld `houseType` ook `looseHouseType`. Dit veld kan gebruikt worden in plaats van het eerste veld, en normaliseert op basis van een aantal trefwoorden de input string.
+
+Bijvoorbeeld: `vrijstaande woning` wordt genormaliseerd naar `VRIJ`. `2-onder-1 kap` wordt genormaliseerd naar `HALFVRIJ`. Hierdoor kunnen decentrale 'translation' functies worden vermeden. Let op dat een directe match met de id (API-naam) van een woningtype altijd boven de genormaliseerde waarde gaat. De waarde `vrij` gaat dus _fast-forward_ naar `VRIJ`.
+
+Voorbeeld payload met `looseHouseType`:
+
+```json
+{
+ "looseHouseType": "vrijstaande woning",
+ "constructionYear": 1922
+}
+```
+
+
 ### Get all houseTypes
 
 Om een woning te classificeren heb je dus een id van `houseType` nodig om de juiste soort aan te geven. Om alle bestaande typen op te vragen kun je de volgende endpoint bevragen middels een `GET` request:
