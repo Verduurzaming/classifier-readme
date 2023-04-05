@@ -257,7 +257,17 @@ Het is ook mogelijk om alle mogelijke maatregelen op te vragen middels een `GET`
 https://classifier.bureauverduurzamen.nl/v1/meta/measure'
 ```
 
-### List API-keys in database
+### API-keys
+
+#### Generate API-key
+
+To create a new API-key you can run the `make api-key` script. This command only accepts one parameter: the name of the key.
+
+```
+composer make api-key MyAppKey
+```
+
+#### List API-keys in database
 
 Locally, you can list all api-keys in the database using the `list-api-keys` function in `debug.php` using:
 
